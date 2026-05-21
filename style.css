@@ -1,0 +1,18 @@
+:root {
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --dark-blue: #131921;
+    --muted-dark-blue: #222e3d;
+    --light-gray: #e3e6e6;
+    --steel-gray: #364659;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    background-color: var(--white-color);
+}
+
+/* Header */
+.nav-logo {
+    width: 100px;
+}
