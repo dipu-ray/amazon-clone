@@ -16,3 +16,7 @@ body {
 .nav-logo {
     width: 100px;
 }
+
+.top-nav {
+    background-color: var(--dark-blue);
+}
