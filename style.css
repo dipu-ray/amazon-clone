@@ -8,42 +8,10 @@
     --cerebral-grey: #ccc;
 }
 
+* {
+    list-style-type: none;
+}
+
 body {
     font-family: "Noto Sans", sans-serif;
-    background-color: var(--white-color);
-}
-
-/* Header */
-header a {
-    color: var(--white-color) !important;
-}
-
-.nav-logo {
-    width: 100px;
-}
-
-.top-nav {
-    background-color: var(--dark-blue);
-}
-
-.bottom-nav {
-    background-color: var(--muted-dark-blue);
-}
-
-.d-bd-btn {
-    width: 100px;
-    font-size: .75rem;
-    line-height: .95rem;
-    color: var(--cerebral-grey) !important;
-}
-
-.d-bd-btn i {
-    margin-bottom: 1px;
-    font-size: 1.1rem;
-}
-
-.d-bd-btn span {
-    color: var(--white-color) !important;
-    font-weight: bold;
-    font-size: .85rem;
 }
