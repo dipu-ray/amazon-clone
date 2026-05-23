@@ -69,10 +69,13 @@ body {
 }
 
 .lang {
-    width: 50px;
-    background-color: red;
+    width: 100px;
 }
 
 .lang a {
     font-size: .8rem;
+}
+
+.lang a i {
+    font-size: .5rem;
 }
