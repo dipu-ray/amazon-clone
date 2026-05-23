@@ -15,3 +15,25 @@
 body {
     font-family: "Noto Sans", sans-serif;
 }
+
+/* Header */
+.top-nav {
+    background-color: var(--dark-blue);
+}
+
+.top-nav .logo {
+    width: 130px;
+}
+
+.top-nav .deliver-btn a {
+    width: 100%;
+}
+
+.db-content {
+    font-size: .75rem;
+    line-height: 1rem;
+}
+
+.db-content .bd-content {
+    font-size: .8rem;
+}
