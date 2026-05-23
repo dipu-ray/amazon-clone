@@ -67,3 +67,12 @@ body {
     height: 40px;
     border-radius: 0 5px 5px 0;
 }
+
+.lang {
+    width: 50px;
+    background-color: red;
+}
+
+.lang a {
+    font-size: .8rem;
+}
