@@ -31,7 +31,6 @@ body {
 
 .db-content {
     font-size: .75rem;
-    line-height: 1rem;
 }
 
 .db-content .bd-content {
@@ -69,7 +68,7 @@ body {
 }
 
 .lang {
-    width: 100px;
+    width: 70px;
 }
 
 .lang a {
@@ -78,4 +77,12 @@ body {
 
 .lang a i {
     font-size: .5rem;
+}
+
+.hello-btn {
+    font-size: .75rem;
+}
+
+.acc-list-btn {
+    font-size: .85rem;
 }
