@@ -90,3 +90,8 @@ body {
 .cart-btn-content {
     font-size: .85rem;
 }
+
+.cart-zero {
+    top: 11px;
+    left: 12px;
+}
