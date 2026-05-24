@@ -95,3 +95,12 @@ body {
     top: 11px;
     left: 12px;
 }
+
+/* Bottom Navbar */
+.bottom-nav {
+    background-color: var(--muted-dark-blue);
+}
+
+.bottom-nav ul li .bn-btn {
+    font-size: .9rem;
+}
