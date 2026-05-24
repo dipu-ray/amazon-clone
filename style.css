@@ -75,7 +75,7 @@ body {
     font-size: .8rem;
 }
 
-.lang a i {
+.down-arrow {
     font-size: .5rem;
 }
 
@@ -84,5 +84,9 @@ body {
 }
 
 .acc-list-btn {
+    font-size: .85rem;
+}
+
+.cart-btn-content {
     font-size: .85rem;
 }
