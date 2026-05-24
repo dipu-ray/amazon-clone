@@ -104,3 +104,11 @@ body {
 .bottom-nav ul li .bn-btn {
     font-size: .9rem;
 }
+
+header a {
+    border-radius: 0px !important;
+}
+
+header a:hover {
+    border: 1px solid var(--white-color) !important;
+}
