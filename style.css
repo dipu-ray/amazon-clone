@@ -37,6 +37,15 @@ body {
     font-size: .8rem;
 }
 
+#categories {
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+#categories:hover {
+    background-color: var(--cerebral-grey);
+}
+
 .search-bar select {
     font-size: .75rem;
     padding: 10px 6px;
