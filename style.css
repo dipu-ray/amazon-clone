@@ -6,6 +6,7 @@
     --light-gray: #e3e6e6;
     --steel-gray: #364659;
     --cerebral-grey: #ccc;
+    --animation: all ease .4s;
 }
 
 * {
@@ -39,7 +40,7 @@ body {
 
 #categories {
     cursor: pointer;
-    transition: all ease .3s;
+    transition: var(--animation);
 }
 
 #categories:hover {
@@ -73,7 +74,13 @@ body {
     display: inline-block;
     width: 45px;
     height: 40px;
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0 !important;
+    transition: var(--animation);
+}
+
+.search-bar .search-icon a:hover {
+    background-color: goldenrod !important;
+    border: none !important;
 }
 
 .lang {
