@@ -141,3 +141,16 @@ header a:hover {
     margin-top: -16px;
     background: rgba(0, 0, 0, 0.5) url('assets/images/banner.png') no-repeat scroll center /cover;
 }
+
+.home-container {
+    margin-top: 24vh;
+}
+
+.home-section a {
+    font-size: .8rem;
+    transition: var(--animation);
+}
+
+.home-section a:hover {
+    color: var(--black-color) !important;
+}
