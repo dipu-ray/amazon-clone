@@ -147,7 +147,7 @@ header a:hover {
 }
 
 .home-section a {
-    font-size: .8rem;
+    font-size: .75rem;
     transition: var(--animation);
 }
 
