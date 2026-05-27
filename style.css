@@ -136,6 +136,19 @@ header a:hover {
 }
 
 /* Main */
+main {
+    background-color: var(--light-gray);
+}
+
+main a {
+    font-size: .75rem;
+    transition: var(--animation);
+}
+
+main a:hover {
+    color: var(--black-color) !important;
+}
+
 /* Home Section */
 .home-section {
     margin-top: -16px;
@@ -144,13 +157,4 @@ header a:hover {
 
 .home-container {
     margin-top: 24vh;
-}
-
-.home-section a {
-    font-size: .75rem;
-    transition: var(--animation);
-}
-
-.home-section a:hover {
-    color: var(--black-color) !important;
 }
