@@ -158,3 +158,22 @@ main a:hover {
 .home-container {
     margin-top: 24vh;
 }
+
+/* Sign In Section */
+.signin-btn {
+    font-size: .85rem;
+    padding: 6px 110px;
+    transition: var(--animation);
+}
+
+.signin-btn:hover {
+    background-color: goldenrod !important;
+}
+
+.signin-content {
+    font-size: .72rem;
+}
+
+.signin-content a {
+    font-size: .7rem;
+}
