@@ -198,6 +198,11 @@ footer .f-btn {
     transition: var(--animation);
 }
 
+footer .f-btn i {
+    font-size: .7rem;
+    margin-left: -3px;
+}
+
 footer .f-btn:hover {
     text-decoration: underline !important;
 }
