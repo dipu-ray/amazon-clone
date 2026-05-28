@@ -22,8 +22,12 @@ body {
     margin: 0 auto;
 }
 
+.footer-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 /* Header */
-/* Top Navbar */
 .top-nav {
     background-color: var(--dark-blue);
 }
@@ -118,7 +122,6 @@ body {
     left: 12px;
 }
 
-/* Bottom Navbar */
 .bottom-nav {
     background-color: var(--muted-dark-blue);
 }
@@ -149,7 +152,6 @@ main a:hover {
     color: var(--black-color) !important;
 }
 
-/* Home Section */
 .home-section {
     margin-top: -16px;
     background: rgba(0, 0, 0, 0.5) url('assets/images/banner.png') no-repeat scroll center /cover;
@@ -159,7 +161,6 @@ main a:hover {
     margin-top: 24vh;
 }
 
-/* Sign In Section */
 .signin-btn {
     font-size: .85rem;
     padding: 6px 110px;
@@ -176,4 +177,17 @@ main a:hover {
 
 .signin-content a {
     font-size: .7rem;
+}
+
+/* Footer */
+.btt-section {
+    background-color: var(--steel-gray);
+}
+
+.btt-btn {
+    font-size: .85rem;
+}
+
+.lb-section1 {
+    background-color: var(--muted-dark-blue);
 }
