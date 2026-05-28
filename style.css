@@ -223,3 +223,12 @@ footer .f-btn2 .f-flag-img img {
 footer .lb-section2 {
     background-color: var(--dark-blue);
 }
+
+footer .f-btn3 {
+    font-size: .7rem;
+    gap: 2px;
+}
+
+.lb-ul-gap {
+    gap: 65px;
+}
