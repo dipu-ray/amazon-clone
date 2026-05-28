@@ -185,9 +185,19 @@ main a:hover {
 }
 
 .btt-btn {
-    font-size: .85rem;
+    font-size: .8rem;
 }
 
 .lb-section1 {
     background-color: var(--muted-dark-blue);
+}
+
+footer .f-btn {
+    font-size: .85rem;
+    color: var(--cerebral-grey);
+    transition: var(--animation);
+}
+
+footer .f-btn:hover {
+    text-decoration: underline !important;
 }
