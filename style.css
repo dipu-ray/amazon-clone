@@ -227,6 +227,12 @@ footer .lb-section2 {
 footer .f-btn3 {
     font-size: .7rem;
     gap: 2px;
+    transition: var(--animation);
+}
+
+footer .f-btn3:hover {
+    text-decoration: underline !important;
+    color: var(--light-gray);
 }
 
 .lb-ul-gap {
