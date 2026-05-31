@@ -238,3 +238,7 @@ footer .f-btn3:hover {
 .lb-ul li {
     width: 135px;
 }
+
+footer .ffs-sm {
+    font-size: .72rem;
+}
