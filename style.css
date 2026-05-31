@@ -235,6 +235,6 @@ footer .f-btn3:hover {
     color: var(--light-gray);
 }
 
-.lb-ul-gap {
-    gap: 65px;
+.lb-ul li {
+    width: 200px;
 }
