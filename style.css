@@ -350,10 +350,47 @@ footer .ffs-sm {
 
 @media screen and (max-width: 850px) {
     .search-bar .input {
-        width: 0;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .search-bar {
+        display: none !important;
     }
 
-    .search-bar .input {
+    .home-container {
+        margin-top: -2vh;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .deliver-btn {
         display: none;
+    }
+
+    .lang {
+        display: none;
+    }
+
+    .bn-btn-hide {
+        display: none;
+    }
+
+    .fl-container {
+        flex-direction: column;
+        align-items: baseline !important;
+        margin-top: 50px;
+    }
+
+    .fl-container-child {
+        flex-direction: column;
+        gap: 20px !important;
+    }
+
+    .privacy-p-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 3px !important;
     }
 }
