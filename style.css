@@ -313,4 +313,47 @@ footer .ffs-sm {
     .search-bar .input {
         width: 200px;
     }
+
+    .lb-container1 {
+        width: 95%;
+    }
+
+    .lb-container2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .lb-container1 {
+        width: 100%;
+    }
+
+    .lb-container2 ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .lb-container2 ul .opacity-li {
+        opacity: 1 !important;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .search-bar .input {
+        width: 100px;
+    }
+
+    .search-bar .input input::placeholder {
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .search-bar .input {
+        width: 0;
+    }
+
+    .search-bar .input {
+        display: none;
+    }
 }
