@@ -182,6 +182,11 @@ main a:hover {
 /* Footer */
 .btt-section {
     background-color: var(--steel-gray);
+    transition: var(--animation);
+}
+
+.btt-section:hover {
+    background-color: #364659eb;
 }
 
 .btt-btn {
