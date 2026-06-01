@@ -392,5 +392,12 @@ footer .ffs-sm {
         flex-direction: column;
         align-items: center;
         gap: 3px !important;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .h-m-cart {
+        display: none;
     }
 }
