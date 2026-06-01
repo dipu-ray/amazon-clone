@@ -247,3 +247,7 @@ footer .f-btn3:hover {
 footer .ffs-sm {
     font-size: .72rem;
 }
+
+.ffs-sm-btn:hover {
+    text-decoration: underline !important;
+}
