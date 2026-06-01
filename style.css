@@ -154,7 +154,7 @@ main a:hover {
 
 .home-section {
     margin-top: -16px;
-    background: rgba(0, 0, 0, 0.5) url('assets/images/banner.png') no-repeat scroll center /cover;
+    background: rgba(0, 0, 0, 0.5) url('assets/images/banner.png') no-repeat scroll center / cover;
 }
 
 .home-container {
@@ -250,4 +250,67 @@ footer .ffs-sm {
 
 .ffs-sm-btn:hover {
     text-decoration: underline !important;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1650px) {
+    .search-bar .input {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .search-bar .input {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .search-bar .input {
+        width: 600px;
+    }
+
+    .home-section {
+        width: 100%;
+    }
+
+    .explore-section {
+        width: 100%;
+    }
+
+    .discover-section {
+        width: 100%;
+    }
+
+    .picks-section {
+        width: 100%;
+    }
+
+    .products-section {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .search-bar .input {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .search-bar .input {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .search-bar .input {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .search-bar .input {
+        width: 200px;
+    }
 }
