@@ -16,3 +16,13 @@ A modern and responsive Amazon clone built using only **HTML**, **CSS**, and **B
 - 🧭 Clean navigation bar with cart and delivery selectors.
 - 🎨 Fully built with HTML, CSS, and Bootstrap only.
 - ⚡ Easy to customize for personal projects.
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Usage                 |
+| ---------- | --------------------- |
+| HTML       | Structure and content |
+| CSS        | Styling and layout    |
+| Bootstrap  | UI framework          |
