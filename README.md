@@ -26,3 +26,17 @@ A modern and responsive Amazon clone built using only **HTML**, **CSS**, and **B
 | HTML       | Structure and content |
 | CSS        | Styling and layout    |
 | Bootstrap  | UI framework          |
+
+---
+
+## 📁 Project Structure
+
+```text
+amazon-clone/               # Project Name
+├── assets/                 # Non-Code Files
+│   ├── card-images/        # Cards Images
+│   ├── images/             # Base Images
+├── README.md               # Project Documentations
+├── index.html              # HTML Codes
+└── style.css               # CSS Codes
+```
