@@ -1,7 +1,7 @@
 <h1 align="center">📦 Amazon Clone</h1>
 
 **Started:** 21 May 2026  
-**Last Updated:** 03 June 2026
+**Last Updated:** 20 June 2026
 
 A modern and responsive Amazon clone built using only **HTML**, **CSS**, and **Bootstrap**. This project focuses on a sleek digital retail UI, an organized multi-category marketplace layout, and a polished online shopping experience without JavaScript or a backend.
 
@@ -13,20 +13,21 @@ A modern and responsive Amazon clone built using only **HTML**, **CSS**, and **B
 | ---------- | --------------------- |
 | HTML       | Structure and content |
 | CSS        | Styling and layout    |
-| Bootstrap  | UI framework          |
+| Bootstrap  | Component-driven      |
 
 ---
 
 ## 📁 Project Structure
 
 ```text
-amazon-clone/               # Project Name
-├── assets/                 # Non-Code Files
-│   ├── card-images/        # Cards Images
-│   ├── images/             # Base Images
-├── README.md               # Project Documentations
-├── index.html              # HTML Codes
-└── style.css               # CSS Codes
+amazon-clone/                   # Project Name
+├── assets/                     # Non-Code Files
+│   ├── card-images/            # Cards Images
+│   ├── images/                 # Base Images
+│   ├── project-screenshots/    # Amazon Clone Demo
+├── README.md                   # Project Documentations
+├── index.html                  # HTML Codes + Bootstrap Codes
+└── style.css                   # CSS Codes
 ```
 
 ---
